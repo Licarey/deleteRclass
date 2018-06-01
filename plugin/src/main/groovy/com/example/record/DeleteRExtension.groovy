@@ -2,8 +2,8 @@ package com.example.record;
 
 public class DeleteRExtension {
 
-    public boolean deleteRclass = true
-    public boolean deleteRclassDebug = true
+    public boolean noDeleteRclass = true
+    public boolean noDeleteRclassDebug = true
     public int logLevel = 2
 
 
@@ -11,8 +11,8 @@ public class DeleteRExtension {
     public String toString() {
         String str =
                 """
-                deleteRclass: ${deleteRclass}
-                deleteRclassDebug: ${deleteRclassDebug}
+                noDeleteRclass: ${noDeleteRclass}
+                noDeleteRclassDebug: ${noDeleteRclassDebug}
                 logLevel: ${logLevel}
                 """
         return str

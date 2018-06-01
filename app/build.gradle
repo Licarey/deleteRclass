@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'lm'
 
 lm {
-    deleteRclass = false
-    deleteRclassDebug = false
+    noDeleteRclass = false
+    noDeleteRclassDebug = false
 }
 android {
     compileSdkVersion 26

@@ -110,8 +110,8 @@ class ContextProvider {
 
     }
 
-    public boolean isDeleteRClass(DeleteRExtension extension) {
-        return (extension.deleteRclass || (extension.deleteRclassDebug && varNameCap.toLowerCase().contains("debug")))
+    public boolean isNoDeleteRClass(DeleteRExtension extension) {
+        return (extension.noDeleteRclass || (extension.noDeleteRclassDebug && varNameCap.toLowerCase().contains("debug")))
     }
 
 

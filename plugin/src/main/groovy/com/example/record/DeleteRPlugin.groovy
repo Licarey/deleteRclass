@@ -28,9 +28,9 @@ public class DeleteRPlugin implements Plugin<Project> {
 
             project.android.applicationVariants.all { variant ->
                 ContextProvider contextProvider = new ContextProvider(project, variant.name.capitalize() as String)
-                boolean isDeleteRClass = contextProvider.isDeleteRClass(extension)
-                PrintUtil.info("deleteRclass: " + isDeleteRClass)
-                if (!isDeleteRClass) {
+                boolean isNoDeleteRClass = contextProvider.isNoDeleteRClass(extension)
+                PrintUtil.info("isNoDeleteRClass: " + isNoDeleteRClass)
+                if (!isNoDeleteRClass) {//删除
                     doWhenDexFirst(project, contextProvider)
                 }
             }
