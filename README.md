@@ -12,6 +12,6 @@ apply plugin: 'lm'
 
 lm {
     noDeleteRclass = false
-    noDeleteRclassDebug = false //debug模式不删除R.class
+    noDeleteRclassDebug = true //debug模式不删除R.class
 }
 
