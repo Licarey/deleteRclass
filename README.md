@@ -17,7 +17,7 @@ lm {
 
 上传Library到JCenter
 
-center 和 Maven Central 都是远程仓库，都可以通过依赖的形式添加jar包。在之前Android Studio 默认使用的是Maven Central ，但发现其有一定的入门难度，将其改为了jcenter。
+jcenter 和 Maven Central 都是远程仓库，都可以通过依赖的形式添加jar包。在之前Android Studio 默认使用的是Maven Central ，但发现其有一定的入门难度，将其改为了jcenter。
 
 想要把代码上传到jcenter，必须先有账号，登陆网站，直接可以选择使用github登陆。
 
