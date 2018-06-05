@@ -7,9 +7,6 @@ import org.gradle.api.DefaultTask
 import org.gradle.api.GradleException
 import org.gradle.api.Project
 
-/**
- * Created by wangzhi on 16/9/12.
- */
 class ContextProvider {
     Project project
 
