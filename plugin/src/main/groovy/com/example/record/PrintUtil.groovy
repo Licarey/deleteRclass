@@ -1,8 +1,5 @@
 package com.example.record
 
-/**
- * Created by wangzhi on 16/4/6.
- */
 class PrintUtil {
     /*
         1 <-> only warn
