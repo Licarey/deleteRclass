@@ -2,9 +2,6 @@ package com.example.record
 
 import com.google.common.base.Joiner
 
-/**
- * Created by wangzhi on 16/9/12.
- */
 class Utils {
 
     private static final Joiner PATH_JOINER = Joiner.on(File.separatorChar);
