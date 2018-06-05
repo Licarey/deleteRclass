@@ -5,9 +5,6 @@ import org.objectweb.asm.*
 
 import java.util.regex.Matcher
 
-/**
- * Created by wangzhi on 16/7/28.
- */
 class DeleteRProcessor {
     HashMap<String, Integer> map
     static def MATCHER_NO_STYLEABLE = '''.*/R2?\\$(?!styleable).*?\\.class|.*/R2?\\.class'''
