@@ -7,9 +7,7 @@ import java.util.jar.JarEntry
 import java.util.jar.JarFile
 import java.util.jar.JarOutputStream
 import java.util.zip.ZipEntry
-/**
- * Created by dolphinWang on 15/11/02.
- */
+
 public class DeleteRPlugin implements Plugin<Project> {
 
 
